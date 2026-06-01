@@ -1,0 +1,14 @@
+.env
+.env.*
+secrets/
+private/
+raw_private/
+*.sqlite
+*.db
+__pycache__/
+**/__pycache__/
+.DS_Store
+node_modules/
+.venv/
+dist/
+build/
