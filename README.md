@@ -4,6 +4,12 @@ A lightweight starter kit for using AI agents such as ChatGPT, Codex, Claude, an
 
 This repository gives you a simple structure for organizing context, sources, decisions, prompts, routines, and maintenance logs so AI agents can work with accumulated knowledge over time.
 
+<p align="center">
+  <img src="assets/ai-work-os-flow.png" alt="AI Work OS Starter Kit workflow diagram" width="100%">
+</p>
+
+<p align="center"><em>Source → Index → Handoff Prompt → AI Agent → Human Review → Maintenance Log</em></p>
+
 ## Problem This Solves
 
 AI tools forget context. Teams lose decisions in scattered chats. Prompts become hard to reuse.
@@ -64,6 +70,8 @@ The goal is practical continuity, not automation for its own sake.
 ├─ .gitignore
 ├─ AGENTS.md
 ├─ CONTRIBUTING.md
+├─ assets/
+│  └─ ai-work-os-flow.png
 ├─ 00_system/
 │  ├─ command_router.md
 │  ├─ model_tool_routing_policy.md
