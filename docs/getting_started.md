@@ -2,6 +2,23 @@
 
 This guide helps you use the starter kit for a small, safe project.
 
+## Before / After
+
+Before:
+
+- Scattered chat prompts
+- Unclear source references
+- Decisions lost in conversation history
+- No review trail
+
+After:
+
+- Source index
+- Project index
+- Handoff prompt
+- Human review
+- Maintenance log
+
 ## Step 1: Choose a Safe Project
 
 Start with fictional, personal, or public-safe material. Do not use private business data while learning the structure.
@@ -31,6 +48,19 @@ AI output should be reviewed by a person before public use. Check factual claims
 ## Step 5: Log the Change
 
 Add a row to `02_routines/maintenance_log.md` for meaningful updates.
+
+## 15-Minute Walkthrough
+
+Use the existing fictional sample project in `04_examples/sample_project/`.
+
+1. Spend 2 minutes reading `04_examples/sample_project/README.md` to understand the fictional scenario.
+2. Spend 3 minutes reviewing `04_examples/sample_project/source_index.sample.md` and note how each source is labeled as fictional.
+3. Spend 3 minutes reviewing `04_examples/sample_project/project_index.sample.md` and identify the project goal, sources, and decision notes.
+4. Spend 3 minutes copying `03_templates/codex_handoff_template.md` and adapting it for one narrow task, such as drafting a fictional launch review checklist.
+5. Spend 2 minutes checking the output for unsupported claims, private data, and unclear source references.
+6. Spend 2 minutes adding a short entry to a maintenance log when the update is meaningful.
+
+For practice, keep the sample project fictional. Replace real names, metrics, companies, customers, and internal links with safe placeholders before using this structure for public work.
 
 ## Korean Note
 

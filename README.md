@@ -4,6 +4,27 @@ A lightweight starter kit for using AI agents such as ChatGPT, Codex, Claude, an
 
 This repository gives you a simple structure for organizing context, sources, decisions, prompts, routines, and maintenance logs so AI agents can work with accumulated knowledge over time.
 
+## Problem This Solves
+
+AI tools forget context. Teams lose decisions in scattered chats. Prompts become hard to reuse.
+
+This starter kit gives AI work a simple operating layer: source indexes, project indexes, handoff prompts, review routines, and maintenance logs. The result is a small, practical system for keeping AI-assisted work easier to resume, review, and improve.
+
+## What This Is / What This Is Not
+
+This is:
+
+- A lightweight Markdown-based operating structure
+- A starter kit for AI-assisted work continuity
+- Useful for PMs, analysts, operators, and non-engineers
+
+This is not:
+
+- An automation platform
+- A private data vault
+- A replacement for human review
+- A full knowledge management product
+
 ## Who This Is For
 
 - Product managers who coordinate research, launches, reports, and decisions
