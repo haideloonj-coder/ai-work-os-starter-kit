@@ -25,6 +25,13 @@ This is not:
 - A replacement for human review
 - A full knowledge management product
 
+## Use This When
+
+- You use AI tools repeatedly but keep losing context between sessions
+- You want a safer way to hand work to AI agents
+- You need lightweight source, decision, and prompt tracking
+- You want a Markdown-first system before building any app or database
+
 ## Who This Is For
 
 - Product managers who coordinate research, launches, reports, and decisions
@@ -56,6 +63,7 @@ The goal is practical continuity, not automation for its own sake.
 ├─ LICENSE
 ├─ .gitignore
 ├─ AGENTS.md
+├─ CONTRIBUTING.md
 ├─ 00_system/
 │  ├─ command_router.md
 │  ├─ model_tool_routing_policy.md
@@ -76,6 +84,7 @@ The goal is practical continuity, not automation for its own sake.
 ├─ 04_examples/
 │  └─ sample_project/
 └─ docs/
+   ├─ examples.md
    ├─ getting_started.md
    ├─ safety_and_privacy.md
    └─ philosophy.md
@@ -120,9 +129,14 @@ See `docs/safety_and_privacy.md` before adapting this kit for real work.
 - Public documentation maintenance
 - Reusable prompt and review checklist library
 
+See [docs/examples.md](docs/examples.md) for short copy-paste friendly examples.
+
+## Contributing
+
+Contributions are welcome when they keep the starter kit public-safe, concise, and easy to adapt. Start with [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Roadmap
 
-- Add more fictional project examples
 - Add optional templates for review workflows
 - Add lightweight issue and decision tracking patterns
 - Add examples for multi-agent review flows
